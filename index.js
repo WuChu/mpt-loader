@@ -9,7 +9,7 @@ module.exports = function (source) {
 
     source = source || '';
     if (query.queryList) {
-        queryList = JSON.parse(query.queryList);
+        queryList = query.queryList;
     }
     if (query.uiWidth) {
         uiWidth = ~~query.uiWidth || uiWidth;
