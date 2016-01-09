@@ -1,6 +1,6 @@
 {
   "name": "mpt-loader",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "auto generate css media-query for unit 'mpt'",
   "main": "index.js",
   "scripts": {
