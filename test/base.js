@@ -50,3 +50,15 @@ describe('Normal Test', function () {
         });
     });
 });
+
+describe('Utils Test', function () {
+    context('#getOptions()', function () {
+        it('should not contain baseWidth', function () {
+            var result = targetUtils.getOptions({
+                baseWidth: 320,
+                queryList: [320, 360, 414, 780]
+            });
+            result.should.have.property('sortedQueryList', [360, 414, 780]);
+        });
+    });
+});
