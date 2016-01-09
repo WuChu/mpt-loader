@@ -1,0 +1,9 @@
+/bak
+/tmp
+/output
+.DS_Store
+web_modules
+node_modules
+npm-debug.log
+
+mock-server/public

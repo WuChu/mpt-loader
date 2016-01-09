@@ -19,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/WuChu/mpt-loader/issues"
   },
-  "homepage": "https://github.com/WuChu/mpt-loader#readme"
+  "homepage": "https://github.com/WuChu/mpt-loader#readme",
+  "dependencies": {
+    "css": "^2.2.1",
+    "loader-utils": "^0.2.12"
+  },
+  "devDependencies": {
+    "should": "^8.0.2"
+  }
 }
